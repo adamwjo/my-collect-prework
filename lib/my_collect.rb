@@ -5,7 +5,7 @@ def my_collect(array)
   arr = []
   while i < array.length
     yield array[i]
-    arr.push(i)
+    arr.push("#{i}")
     i += 1
   end
   arr 
