@@ -8,5 +8,5 @@ def my_collect(array)
     arr.push(array[i])
     i += 1
   end
-  arr
+  x
 end
